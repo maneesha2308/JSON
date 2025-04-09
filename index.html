@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="getdata()">get data</button>
+    <script>
+        async function getdata(){
+            let data=await fetch("http://localhost:3000/data")
+            let res=await data.json()
+            console.log(res)
+        }
+        getdata()
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "data":[
+        {
+            "id":1,
+            "name":"john",
+            "age":25
+        },{
+            "id":2,
+            "name":"jane",
+            "age":22
+        },{
+            "id":3,
+            "name":"bob",
+            "age":23
+        }
+
+    ]
+    
+}
